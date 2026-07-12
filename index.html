@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <h1>Interactive Resume Builder</h1>
+    <main class = "container">
+        <!--form-->
+        <section class = "form-section">
+            <form id="resumeForm">
+
+            <label for="name">Name</label>
+            <input type="name" id="name" placeholder="Enter your name">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email id">
+        
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+
+            <label for="summary">Profile Summary</label>
+            <textarea id="summary" rows="4"></textarea>
+            
+            <label for="skills">Skills</label>
+            <input type="text" id="skills" placeholder="HTML, CSS, JavaScript, React">
+            
+            <h3>Education</h3>
+            <div id="educationContainer">
+                <input type="text" placeholder="College Name">
+                <input type="text" placeholder="Degree">
+                <input type="text" placeholder="Year">
+
+            </div>
+            <button type="button" id="addEducation">+ Add Education</button>
+            
+            <h3>Experience</h3>
+            <div id="experienceContainer">
+                <input type="text" placeholder="Company">
+                <input type="text" placeholder="Role">
+                <input type="text" placeholder="Duration">
+            </div>
+            <button type="button" id="addExperience">+ Add Experience</button>
+            
+           
+            <button type="button" id="clearBtn">Clear</button>
+            <button type="button" id="downloadBtn">Download PDF</button>
+            </form>
+        </section>
+        
+        <!-- Live Preview -->
+        <section class="preview-section">
+            
+            <p id="previewName">Your Name</p>
+
+            <p id="previewEmail">Email</p>
+
+            <p id="previewPhone">Phone</p>
+
+            <h3>Profile Summary</h3>
+            <p id="previewSummary"></p>
+
+            <h3>Skills</h3>
+            <p id="previewSkills"></p>
+
+            <h3>Education</h3>
+            <p id="previewEducation"></p>
+
+            <h3>Experience</h3>
+            <p id="previewExperience"></p>
+
+        </section>
+    
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
