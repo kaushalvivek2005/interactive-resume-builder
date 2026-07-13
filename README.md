@@ -6,6 +6,10 @@ This project allows users to enter their personal details and instantly preview 
 
 ---
 
+**Live-Demo: https://kaushalvivek2005.github.io/interactive-resume-builder/
+
+---
+
 ## Features
 
 - Live Resume Preview
