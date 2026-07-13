@@ -1,0 +1,329 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   Body
+=========================== */
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+header{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:30px;
+    animation:fadeDown 1s ease;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+/* ===========================
+   Layout
+=========================== */
+
+.container{
+    display:flex;
+    gap:30px;
+    padding:30px;
+    align-items:flex-start;
+}
+
+/* ===========================
+   Form Section
+=========================== */
+
+.form-section{
+    flex:1;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    animation:slideLeft 1s;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.input-group input,
+.input-group textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    transition:.3s;
+    outline:none;
+}
+
+.input-group input:focus,
+.input-group textarea:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 8px rgba(37,99,235,.3);
+}
+
+/* ===========================
+   Section Title
+=========================== */
+
+.section-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 0;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+button{
+    padding:10px 18px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+.buttons{
+    text-align:center;
+    margin-top:20px;
+}
+
+#clearBtn{
+    background:#dc2626;
+}
+
+#clearBtn:hover{
+    background:#b91c1c;
+}
+
+/* ===========================
+   Education & Experience
+=========================== */
+
+.education-item,
+.experience-item{
+    margin-bottom:15px;
+    animation:fadeIn .5s;
+}
+
+.education-item input,
+.experience-item input{
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+/* ===========================
+   Resume Preview
+=========================== */
+
+.preview-section{
+    flex:1;
+}
+
+.resume{
+
+    background:#fff;
+
+    color:#000;
+
+    width:210mm;
+
+    min-height:297mm;
+
+    padding:20mm;
+
+    box-shadow:none;
+
+}
+
+.resume h1{
+    color:#2563eb;
+}
+
+.resume h2{
+    margin-top:20px;
+    margin-bottom:10px;
+    color:#1f2937;
+}
+
+.resume p{
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+.resume ul{
+    padding-left:20px;
+}
+
+.resume li{
+    margin-bottom:5px;
+    transition:.3s;
+}
+
+.resume li:hover{
+    color:#2563eb;
+    transform:translateX(5px);
+}
+
+hr{
+    margin:20px 0;
+}
+
+/* ===========================
+   Animations
+=========================== */
+
+@keyframes fadeDown{
+
+    from{
+        opacity:0;
+        transform:translateY(-30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+@keyframes slideLeft{
+
+    from{
+        opacity:0;
+        transform:translateX(-40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+}
+
+@keyframes slideRight{
+
+    from{
+        opacity:0;
+        transform:translateX(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:900px){
+
+    .container{
+
+        flex-direction:column;
+
+    }
+
+    .form-section,
+    .preview-section{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    header h1{
+
+        font-size:28px;
+
+    }
+
+    header p{
+
+        font-size:14px;
+
+    }
+
+    .container{
+
+        padding:15px;
+
+    }
+
+    .form-section,
+    .resume{
+
+        padding:20px;
+
+    }
+
+    button{
+
+        width:100%;
+        margin-top:10px;
+
+    }
+
+    .section-title{
+
+        flex-direction:column;
+        gap:10px;
+        align-items:flex-start;
+
+    }
+
+}
