@@ -1,16 +1,35 @@
-# Interactive Resume Builder
+# 📄 Interactive Resume Builder
 
-An interactive and responsive Resume Builder created using **HTML, CSS, and JavaScript**.
+An interactive and responsive **Resume Builder** built using **HTML, CSS, and JavaScript**.
 
-This project allows users to enter their personal details and instantly preview a professional resume. Users can dynamically add education and experience details, clear the form, and download the generated resume as a PDF.
-
----
-
-**Live-Demo: https://kaushalvivek2005.github.io/interactive-resume-builder/
+This project allows users to enter their personal information, skills, education, and experience while instantly previewing the resume. Users can also export the generated resume as a PDF.
 
 ---
 
-## Features
+## 🌐 Live Demo
+
+👉 https://kaushalvivek2005.github.io/interactive-resume-builder/
+
+---
+
+## 📸 Screenshots
+
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Live Resume Preview
+
+![Resume Preview](screenshots/preview.png)
+
+### Generated PDF
+
+![PDF Output](screenshots/generatedpdf.png)
+
+---
+
+## ✨ Features
 
 - Live Resume Preview
 - Personal Information Form
@@ -24,18 +43,18 @@ This project allows users to enter their personal details and instantly preview 
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6)
 - html2pdf.js
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
-```
+```text
 Interactive-Resume-Builder/
 │
 ├── index.html
@@ -47,74 +66,92 @@ Interactive-Resume-Builder/
 
 ---
 
-## How to Run
+## 🚀 Getting Started
 
-1. Download or clone the project.
-2. Open `index.html` in any modern browser.
-3. Fill in your resume details.
-4. Preview updates in real time.
-5. Click **Download PDF** to save the resume.
+### Clone the Repository
+
+```bash
+git clone https://github.com/kaushalvivek2005/interactive-resume-builder.git
+```
+
+### Run the Project
+
+Simply open **index.html** in any modern web browser.
+
+No installation or dependencies are required.
 
 ---
 
-## Functionalities
+## 📖 How to Use
 
-### Personal Information
+1. Enter your personal information.
+2. Add your skills.
+3. Add multiple education details.
+4. Add multiple experience details.
+5. Preview updates instantly.
+6. Click **Download PDF** to save the resume.
 
-- Name
+---
+
+## ⚙️ Functionalities
+
+### 👤 Personal Information
+
+- Full Name
 - Email
 - Phone Number
 - Address
 - Profile Summary
 
-### Skills
+### 💻 Skills
 
 - Add multiple skills separated by commas.
-- Skills appear instantly in the resume preview.
+- Skills appear instantly in the live preview.
 
-### Education
+### 🎓 Education
 
-- Click **Add Education**
-- Add Degree
+- Add multiple education entries.
+- Degree
 - College Name
 - Passing Year
 
-### Experience
+### 💼 Experience
 
-- Click **Add Experience**
-- Add Job Title
+- Add multiple experience entries.
+- Job Title
 - Company Name
 - Duration
 
-### Resume Preview
+### 👀 Live Preview
 
-Updates automatically while typing.
+Resume updates automatically while typing.
 
-### Clear Form
+### 🗑️ Clear Form
 
 Resets the complete form and preview.
 
-### Download PDF
+### 📄 Download PDF
 
-Exports the generated resume into PDF format.
+Exports the generated resume as a PDF.
 
 ---
 
-## Future Improvements
+## 🚀 Future Improvements
 
 - Profile Picture Upload
 - Dark Mode
-- Local Storage
-- Remove Education/Experience Button
+- Local Storage Support
+- Edit & Remove Education/Experience
 - Multiple Resume Templates
 - Theme Selection
+- Drag & Drop Resume Sections
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Kaushal Kumar**
 
-B.Tech Information Technology
+- 🎓 B.Tech in Information Technology
+- 🏫 BIT Sindri
 
-BIT Sindri
